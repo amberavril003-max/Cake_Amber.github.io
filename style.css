@@ -1,0 +1,285 @@
+body {
+    background-color: rgb(231, 206, 231);
+
+
+}
+
+.contact-body {
+    background: url(./bg\ img\ 2.jfif) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cart_body {
+    background: url(./National-Cake-Day-World-Food-Photography-Awards-32-Pics-672350653c02a__700.jpg) no-repeat;
+    background-size: cover;
+     background-position: center;  
+}
+
+
+
+
+
+
+/* .navbar{
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+} */
+.amby {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: violet;
+    font-weight: bold;
+}
+
+.cake {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(233, 93, 116);
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    font-size: 29px;
+
+}
+
+.nav-item {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.icons {
+    font-size: 22px;
+    color: rgb(185, 79, 185);
+}
+
+.carousel-inner img {
+    width: 600px;
+    height: 600px;
+
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+
+
+}
+
+.carousel-caption {
+    padding-bottom: 8%;
+    margin: auto;
+    width: 70%;
+    padding-top: 20%;
+
+
+
+}
+
+.carousel-caption p {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+
+.buttons {
+    background-color: violet;
+    border: 1px solid;
+
+}
+
+.card {
+    padding: 20px;
+
+
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    transition: transform 0.3s ease;
+
+}
+
+.card img:hover {
+    transform: translateY(-10px);
+}
+
+.cardtext {
+    margin: 15px;
+    padding: 15px;
+}
+
+.banner {
+    background-color: rgb(210, 156, 223);
+    font-size: 15px;
+}
+
+.bannerrow h5 {
+    font-size: 27px;
+}
+
+.footerlogo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    color: rgb(216, 95, 95);
+}
+
+.footerlink a {
+    display: block;
+
+}
+
+.purposeline {
+    text-align: center;
+    padding: 12px;
+
+}
+
+h1,
+h3,
+h5,
+i,
+h2,
+h6 {
+    font-family: "Great Vibes", cursive;
+}
+
+/* .chgfont{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+h6 {
+    font-size: 26px;
+}
+
+.cardtextabout:hover {
+    color: rgb(99, 12, 99);
+}
+
+.menubtn {
+    background-color: burlywood;
+    color: brown;
+    padding: 20px;
+    margin: 15px;
+}
+
+.button {
+    color: rgb(136, 24, 136);
+    background-color: pink;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 500px;
+}
+
+.menuform {
+    width: 100px;
+    height: 20px;
+    margin: 30px;
+    display: flex;
+
+}
+
+.cartitems {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+
+}
+
+
+.cartcard {
+    /* background-color: rgb(241, 191, 186); */
+    /* border: none; */
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(225, 225, 225, 0.1);
+
+    border: 1px solid rgba(225, 225, 225, 0.2);
+
+}
+
+.cartcards {
+    /* background-color: rgb(214, 156, 202); */
+    /* border:none; */
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(225, 225, 225, 0.1);
+
+    border: 1px solid rgba(225, 225, 225, 0.2);
+
+
+
+}
+
+.sumcard {
+    /* background-color: rgb(241, 187, 181);
+    border: none; */
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(225, 225, 225, 0.1);
+
+    border: 1px solid rgba(225, 225, 225, 0.2);
+
+
+
+
+}
+
+.cartitems img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.totalhead {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quantity {
+    border: 1px solid rgb(216, 160, 221);
+    color: rgb(168, 64, 209);
+    background-color: floralwhite;
+    border-radius: 26%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quantity:hover {
+    color: rgba(255, 0, 157, 0.247);
+}
+
+.description {
+    margin: 20px;
+    padding: 40px;
+}
+
+.orderButtons {
+    border: none;
+    color: black;
+    background-color: #C98276;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.orderButtons:hover {
+    color: rgb(83, 16, 80);
+    background-color: pink;
+}
+
+.modal-content {
+    background: url(./assortment-pieces-cake_114579-85732.avif) no-repeat;
+}

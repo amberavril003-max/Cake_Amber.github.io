@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RI project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-danger-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <span class="amby"><i>Amby's</i></span> <span class="cake"><i>Cake
+                        Corner!</i></span> <i class="bi bi-balloon-heart"></i> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html"><i
+                                class="bi bi-house-heart-fill icons"></i></i> Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="riabout us.html"><i class="bi bi-info-lg icons"></i></i> About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="rimenu.html"><i class="bi bi-cake-fill icons"></i> Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="rireserve.html" data-bs-toggle="modal"
+                            data-bs-target="#reservationModal"><i class="bi bi-envelope-paper-heart icons"></i>
+                            Reservations</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="ricontact.html"><i class="bi bi-telephone-fill icons"></i>
+                            Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ricart.html"><i class="bi bi-cart icons"></i> Cart</a>
+                    </li>
+
+
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+
+    <!-- menu -->
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./menu carousel.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-end">
+                        <h1 class="text-end">Cakes & Desserts</h1>
+                        <p>Your favortie flavors in unique creations,<br>
+                            every slice baked with care and premium ingredients.</p>
+                        <div class="text-end ">
+                            <h3 class="">Accepting Custom Request Orders!</h3>
+                        </div>
+
+                        <a href="#menu1"> <button class="orderButtons">View Cakes</button></a>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Pasteries carousel.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="text-start">
+                            <h1>Bread and Pasteries</h1>
+                            <p>Enjoy soft breads,buttery croissants,<br> and delicious pasteries <br> prepared fresh
+                                daily.</p>
+                            <a href="#menu2"> <button class="orderButtons">Browse Pasteries</button></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./pouring-hot-coffee.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block  text-start">
+                        <h1>Coffee & Tea</h1>
+
+                        <p>Pair your favorite desserts
+                            with freshly brewd coffee <br> or soothing tea for a cozy cafe experience.</p>
+                        <a href="#menu3"> <button class="orderButtons">Order a cup</button></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- menubars -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="my-3  pt-5">Check Out Our Menu <i class="bi bi-fork-knife "></i></h2>
+
+                <nav aria-label="...">
+                    <ul class="pagination ">
+
+                        <li class="page-item active"><a class="page-link" href="#menu1">Cake and Desserts</a></li>
+                        <li class="page-item ">
+                            <a class="page-link" href="#menu2" aria-current="page">Pasteries and Bread</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#menu3">Drinks & Refreshments</a></li>
+
+                    </ul>
+                </nav>
+                <div class="row">
+                    <div class="col-lg-3 mb-3 " id="menu1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu1.webp" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cherry Cream Cake</h5>
+                                <p class="card-text">Price- $45</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="cherry cream cake"
+                                    data-price="45">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu 2.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate Berry Drip</h5>
+                                <p class="card-text"> Price- $55</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="chocolate berry drip"
+                                    data-price="55">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu 3.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate Celebration Cake</h5>
+                                <p class="card-text">Price- $50</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="chocolate celebration cake"
+                                    data-price="50">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu 4.jfif" class="card-img-top " alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Strawberry Vanilla Cake</h5>
+                                <p class="card-text">Price-$48</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="strawberry vanilla cake"
+                                    data-price="48">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-lg-3 mb-3 " id="menu1">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu 5.jfif" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Raspberry Cream</h5>
+                                <p class="card-text">Price- $50</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="rasberry cream"
+                                    data-price="50">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu 6.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate Cherry Cake</h5>
+                                <p class="card-text">Price- $55</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="chocolate cherry cake"
+                                    data-price="55">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu 7.jfif" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pink Drip Celebration Cake</h5>
+                                <p class="card-text">Price- $60</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="pink drip celebration"
+                                    data-price="60">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./cake menu 8.jpg" class="card-img-top object-fit-cover " alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Blueberry Lavender Cake</h5>
+                                <p class="card-text">Price- $52</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="blueberry lavender cake"
+                                    data-price="52">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <h2>Pasteries And Bread</h2>
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./bread.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cinnamon Raisin Loaf</h5>
+                                <p class="card-text">Price- $12</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="cinnamon rasisin loaf"
+                                    data-price="12">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./roll pasteries.avif" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate Croissant</h5>
+                                <p class="card-text">Price- $6</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="chocolate croissant"
+                                    data-price="6">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./croissant.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Butter Croissant</h5>
+                                <p class="card-text">Price- $5</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="butter croissant"
+                                    data-price="5">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./brea.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Multigrain Bread Loaf</h5>
+                                <p class="card-text">Price- $10</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="multigrain bread loaf"
+                                    data-price="10">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./beguette.jfif" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Assorted Pastery Box</h5>
+                                <p class="card-text">Price- $25</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="assorted pastery box"
+                                    data-price="25">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./whole meal breadd.jfif" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Artsian Sourdough Bread</h5>
+                                <p class="card-text">Price-$12 </p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="artsian sourdough bread"
+                                    data-price="12">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./seasme pretsel.jfif" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Assorted Bagels & Donuts</h5>
+                                <p class="card-text">Price- $20</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="assorted bagels&donuts"
+                                    data-price="20">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 mb-3" id="menu2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./tiny cakes.jfif" class="card-img-top object-fit-cover" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Assorted Petit Fours</h5>
+                                <p class="card-text">Price- $28</p>
+
+
+                                <a href="#" class="btn btn-danger add-to-cart" data-name="assorted petit fours"
+                                    data-price="28">Add to Cart</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid" id="menu3">
+            <div class="row">
+                <h2 class="my-3">Drinks & Refreshments</h2>
+
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./iced tea.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Iced Milk Tea</h5>
+                            <p class="card-text">Price- $6</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="iced milk tea" data-price="6">Add
+                                to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./burmese tea.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Burmse Tea</h5>
+                            <p class="card-text">Price- $6.5</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="burmese tea" data-price="6.5">Add
+                                to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./latte.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Cappuccino</h5>
+                            <p class="card-text">Price- $5.5</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="hot cappuccino"
+                                data-price="5.5">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./lemon iced tea.jpg" class="card-img-top object-fit-cover" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lemon Tea</h5>
+                            <p class="card-text">Price- $5</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="lemon tea" data-price="5">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./cappicino.jfif" class="card-img-top object-fit-cover" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Price- $8</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="espresso" data-price="8">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./espresso.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso shot</h5>
+                            <p class="card-text">Price- $4</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="espresso shot" data-price="4">Add
+                                to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./iced coffee.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Iced Caramel Macchiato</h5>
+                            <p class="card-text">Price- $6.5</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="iced caramel macchiato"
+                                data-price="6.5">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./mocha.webp" class="card-img-top object-fit-cover" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Price- $25</p>
+
+
+                            <a href="#" class="btn btn-danger add-to-cart" data-name="mocha" data-price="25">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+
+        </div>
+
+        <!-- menubars -->
+
+        <!-- menubtn -->
+        <div class="container my-5">
+            <div class="row">
+
+                <div class="col-lg-6 Rbtn">
+                    <a href="ricart.html" class="btn btn-danger"> <i class="bi bi-cart4"></i> View Cart</a>
+                </div>
+                <div class="col-lg-6 text-end Rbtn">
+                    <a href="" class="btn btn-danger"> <i class="bi bi-bag-heart-fill"></i> Order Now</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- menubtn -->
+
+
+    </section>
+
+
+    <!-- menu -->
+    <script>
+        let cart = JSON.parse(sessionStorage.getItem("cart")) || {}
+        let addtocart = document.querySelectorAll(".add-to-cart")
+        addtocart.forEach((button) => {
+            button.addEventListener("click", (event) => {
+                let name = event.target.dataset.name;
+                let price=event.target.dataset.price;
+                if (cart[name]) {
+                    cart[name].quantity += 1;
+                } else {
+                    cart[name] = { price, quantity: 1 };
+                }
+
+                sessionStorage.setItem("cart", JSON.stringify(cart));
+                alert(`${name} has been added to cart`)
+            })
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class=" p-5  bg-danger-subtle">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 footerlogo"><i><i class="bi bi-cake2-fill"></i> Amby's Cake Corner!</i></div>
+
+                <div class="col-lg-3 footerlink">
+                    <h5>Need Help </h5>
+                    <a href="">FAQ</a>
+                    <a href="">Cancellation And Refund</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms and Conditions</a>
+                    <a href="">Contact Us</a>
+
+                </div>
+
+                <div class="col-lg-3 footerlink">
+                    <h5>Quick Links</h5>
+                    <a href="">Home</a>
+                    <a href="">Menu</a>
+                    <a href="">Gallery</a>
+                    <a href="">Reservations</a>
+                    <a href="">Contact</a>
+                    <a href="">Cart</a>
+                    <a href=""></a>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="p-3"><i class="bi bi-houses-fill"></i> Visit Us</h5>
+                    <address>
+                        <i class="bi bi-pin-fill"></i> 123 Baker's Street <br>
+                        Yangon Myanmar
+                        <br>
+                        <i class="bi bi-telephone-fill"></i> 09962265738
+                        <br>
+                        <i class="bi bi-envelope"></i> @amby'sbakery@gmail.com
+                    </address>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p> 2026 Amby's Cake Corner Bakery
+            Made with love and freshly baked treats.
+        </p>
+
+        <a href=""> <i class="bi bi-instagram fs-4"></i> </a> <a href=""> <i class="bi bi-facebook fs-4"></i> </a>
+
+        <div class="text-end mt-5">
+            <a href="rimenu.html" class="my-4 p-5">Back to Top</a>
+
+
+        </div>
+
+    </footer>
+
+    <!-- footer -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- reservaion popup form -->
+    <div class="modal fade" id="reservationModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Book a Table</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <form>
+
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control mb-3">
+
+                        <label class="form-label">Date</label>
+                        <input type="date" class="form-control mb-3">
+
+                        <label class="form-label">Time</label>
+                        <input type="time" class="form-control mb-3">
+
+                        <label class="form-label">Number of Guests</label>
+                        <input type="number" class="form-control mb-3">
+
+                        <button type="submit" class="btn btn-danger">
+                            Reserve
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- reservaion popup form -->
+
+
+</body>
+
+</h
