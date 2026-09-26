@@ -14,7 +14,8 @@ body {
 .cart_body {
     background: url(./National-Cake-Day-World-Food-Photography-Awards-32-Pics-672350653c02a__700.jpg) no-repeat;
     background-size: cover;
-     background-position: center;  
+     background-position: center; 
+    width:100px;
 }
 
 
